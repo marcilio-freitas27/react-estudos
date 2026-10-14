@@ -1,6 +1,10 @@
 import { useState } from 'preact/hooks'
 import preactLogo from './assets/preact.svg'
 import viteLogo from '/vite.svg'
+
+//components 
+import Menu  from './components/Menu.jsx'
+import Rodape  from './components/Rodape.jsx'
 import './app.css'
 
 export function App() {
@@ -8,6 +12,7 @@ export function App() {
 
   return (
     <>
+      <Menu />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} class="logo" alt="Vite logo" />
@@ -38,6 +43,7 @@ export function App() {
       <p class="read-the-docs">
         Click on the Vite and Preact logos to learn more
       </p>
+      <Rodape />
     </>
   )
 }

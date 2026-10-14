@@ -1,7 +1,7 @@
 Estudando o React.
 
-- Criação de um novo projeto React com Vite em branco
-npm create vite@5.5.2 .
+- Criação de um novo projeto React com Vite em branco:
+    - npm create vite@5.5.2 .
 
 Need to install the following packages:
 create-vite@5.5.2
@@ -29,3 +29,17 @@ Ok to proceed? (y) y
 
 Criei pastas de componentes, adicionei novos arquivos de componentes ao arquivo main.jsx e importei css para cada um do seu componente
 Rodape.jsx -> Rodape.css
+
+se precisar alterar a interface: usar states
+
+props entre component
+
+arrow function para usar functions que tem argumento
+
+instalar tailwind css:
+
+[doc tailwindcss](https://tailwindcss.com/docs/installation/using-vite)
+
+```cmd 
+npm install tailwindcss @tailwindcss/vite
+```
