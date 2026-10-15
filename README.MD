@@ -41,5 +41,14 @@ instalar tailwind css:
 [doc tailwindcss](https://tailwindcss.com/docs/installation/using-vite)
 
 ```cmd 
-npm install tailwindcss @tailwindcss/vite
+npm install tailwindcss @tailwindcss/vite0
 ```
+
+instalar lucide icons 
+
+[doc lucide icons](https://lucide.dev/guide/installation)
+
+```cmd
+npm install lucide-react
+```
+
