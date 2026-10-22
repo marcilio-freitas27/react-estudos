@@ -9,6 +9,19 @@ import './app.css'
 
 export function App() {
   const [count, setCount] = useState(0)
+  const [rodape, setRodape] = useState(
+    [
+      {
+        nome: 'Marcilio',
+      },
+      {
+        nome: 'Bruno',
+      },
+      {
+        nome: 'Gustavo',
+      },
+    ]
+  )
 
   return (
     <>
@@ -43,7 +56,7 @@ export function App() {
       <p class="read-the-docs">
         Click on the Vite and Preact logos to learn more
       </p>
-      <Rodape />
+      <Rodape rodape={rodape}/>
     </>
   )
 }
