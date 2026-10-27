@@ -1,9 +1,18 @@
 import '../style/Menu.css';
 
-function Menu(){
+function Menu(props){
+    // para exibir no return é sempre assim: props.menu[0].valor
     return (
-        <div>Oi</div>
-    )
+        
+        <div>{props.menu.map((menu => (
+            <>
+                <p className={"borda"} key={menu.id}>
+                    {menu.valor}
+                    <button></button>
+                </p>
+            </>
+        )))}</div>
+    );
 }
 
 export default Menu

@@ -1,0 +1,8 @@
+.borda{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: beige;
+    color: black;
+    text-align: left;
+    padding: 5px
+}

@@ -8,7 +8,7 @@ import Rodape  from './components/Rodape.jsx'
 import './app.css'
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
   const [rodape, setRodape] = useState(
     [
       {
@@ -21,11 +21,22 @@ export function App() {
         nome: 'Gustavo',
       },
     ]
-  )
+  );
+  const [menu, setMenu] = useState([
+    {
+      valor: '1',
+    },
+    {
+      valor: '2',
+    },
+    {
+      valor: '3',
+    },
+  ]);
 
   return (
     <>
-      <Menu />
+      <Menu menu={menu}/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} class="logo" alt="Vite logo" />
