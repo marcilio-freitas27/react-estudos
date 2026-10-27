@@ -8,7 +8,11 @@ function Menu(props){
             <>
                 <p className={"borda"} key={menu.id}>
                     {menu.valor}
-                    <button></button>
+                    <button onClick={
+                        ()=>{
+                            console.log('apertou!')
+                        }
+                    }>Click</button>
                 </p>
             </>
         )))}</div>
