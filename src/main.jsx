@@ -1,9 +1,11 @@
 import { render } from 'preact'
-import { App } from './app.jsx'
-// import { Menu } from './components/Menu.jsx'
+import { BrowserRouter } from 'react-router-dom'
 import './index.css'
+import AppRoutes from './route.jsx'
 
 render(
-    <App />,
-    document.getElementById('app')
+  <BrowserRouter>
+    <AppRoutes />
+  </BrowserRouter>,
+  document.getElementById('app')
 )

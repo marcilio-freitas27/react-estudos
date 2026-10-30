@@ -1,9 +1,11 @@
 import { useState } from 'preact/hooks'
+import { Link } from 'react-router-dom'
 
 //components 
 import Menu  from './components/Menu.jsx'
 import Rodape  from './components/Rodape.jsx'
 import './app.css'
+
 
 export function App() {
   const [rodape, setRodape] = useState(
@@ -35,6 +37,7 @@ export function App() {
     <>
       <Menu menu={menu}/>
       <Rodape rodape={rodape}/>
+      <Link className="btn" to="/teste">Teste</Link>
     </>
   )
 }

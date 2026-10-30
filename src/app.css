@@ -23,3 +23,16 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.btn{
+    display: block;
+    border: 1px solid #000;
+    background-color: blue;
+    color:aliceblue;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+    align-content: center;
+}
