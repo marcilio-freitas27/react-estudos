@@ -37,7 +37,7 @@ export function App() {
     <>
       <Menu menu={menu}/>
       <Rodape rodape={rodape}/>
-      <Link className="btn" to="/teste">Teste</Link>
+      <Link className="btn" to="/teste">+</Link>
     </>
   )
 }

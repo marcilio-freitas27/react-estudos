@@ -52,3 +52,14 @@ instalar lucide icons
 npm install lucide-react
 ```
 
+#### React route
+
+- Pacote mais usado: react-router-dom;
+- Instalação: npm install react-router-dom;
+- route.jsx: arquivos de rotas(tags Routes e Route);
+- main.jsx: arquivo que implementa as rotas(tags BrowserRouter e AppRoutes);
+- Demais componentes: usam a tag Link para navegação entre telas.
+
+#### Color Scheme
+
+-Site usado no projeto: [paletton](https://paletton.com/#uid=13L0t0kwi++bu++hX++++rd++kX)
