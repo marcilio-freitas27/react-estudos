@@ -37,7 +37,22 @@ export function App() {
     <>
       <Menu menu={menu}/>
       <Rodape rodape={rodape}/>
-      <Link className="btn" to="/teste">+</Link>
+      <div>
+        <label>Nome: </label>
+        <input type="text" />
+      </div>
+      <br></br>
+      <button className="btn" onClick={()=> {
+        let nome = document.querySelector('input').value;
+        setRodape([...rodape, { nome: nome }]);
+      }}>+</button>
+      <br></br>
+      <Link to="/teste">Ir para Teste</Link>
+      <h3>Lista de Nomes</h3>
+
+      <div>{rodape.map((item) => (
+        <p>{item.nome}</p>
+      ))}</div>
     </>
   )
 }
